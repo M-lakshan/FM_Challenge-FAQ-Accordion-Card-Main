@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 5px; 
+    opacity: 5%;   
+
+    &:hover {
+        background: $Light_grayish_blue_faded; 
+        transition: dropdownOn ease 1.5s;
+        border-radius: 5px;
+    }
+}
+::-webkit-scrollbar-track-piece {
+    display: none; 
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    display: none;  
+}
+
+/* Resizer */
+::-webkit-resizer {
+    display: none;
+}
+
+/* Button */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px; 
+    background: $Light_grayish_blue_faded; 
+
+    &:hover {
+        border-radius: 5px; 
+        background: $Light_grayish_blue; 
+    }
+}

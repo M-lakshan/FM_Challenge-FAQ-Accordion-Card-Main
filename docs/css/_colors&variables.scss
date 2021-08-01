@@ -1,0 +1,17 @@
+
+$Soft_red: hsl(14, 96%, 60%);
+$Soft_violet: rgb(175, 103, 233);
+$Soft_blue: hsl(240, 73%, 65%);
+$Very_dark_desaturated_blue: hsl(238, 29%, 16%);
+$Very_dark_grayish_blue: hsl(237, 12%, 33%);
+$Dark_grayish_blue: hsl(240, 6%, 50%);
+$Light_grayish_blue: hsl(240, 5%, 91%);
+$Light_grayish_blue_faded: hsla(240, 4%, 91%, 0.336);
+
+.attribution {
+    font-size: 0.6875rem; text-align: center;
+}
+
+.attribution a { 
+    color: $Light_grayish_blue;
+}
